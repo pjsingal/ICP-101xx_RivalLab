@@ -4,9 +4,10 @@
 //4. board stores the data (read the first 3 8-bit packs). So the ICP does two transmits which each have 2 8-bit packets. We ignore the 4th pacet bc temp
 //5. do a "pull down" i.e., stop the transmit and tell ICP to not send any more info
 //6. Use SPI protocol to store data on RAM (if there is no memory storage on board. We'll fix this later. Look into what the fastest SD card we could get it. It should be as big as possible 
-
 // Bonus: do some timing exercises, look up code optimization strategies
 
+
+#include <pico/stdlib.h>
 #include <Arduino.h>
 #include <Wire.h> //We might not use this lib
 #include "icp101xx.h"
