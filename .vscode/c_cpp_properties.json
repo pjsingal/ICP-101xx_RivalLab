@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "C:\\Users\\Paddy Singal\\OneDrive - Queen's University\\University\\Rival Lab\\Sensor Calibration Project\\SensorRP2040"
             ],
             "defines": [
                 "_DEBUG",

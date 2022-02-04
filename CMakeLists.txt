@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.12)
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Set name of project (as PROJECT_NAME) and C/C++ standards
-project(ICP-101xx_RivalLab CXX)
+project(Sensor_RP2040 CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(${PROJECT_NAME}

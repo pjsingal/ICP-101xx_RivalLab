@@ -1,6 +1,6 @@
 
 #include <SPI.h>
-#include <icp101xx.h> // ICP sensor library
+#include "\ICP-101xx_Lib_RivalLab\icp101xx.h" // ICP sensor library
 
 ICP101xx mysensor;
 
