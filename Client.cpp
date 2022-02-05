@@ -1,3 +1,5 @@
+// NOTE: THIS CODE HASN'T BEEN ADAPTED FROM ITS ORIGINAL ARDUINO FORMAT YET
+
 #include <RH_RF95.h> // RFM9x radio transmitter/reciever library
 #include <SPI.h>
 

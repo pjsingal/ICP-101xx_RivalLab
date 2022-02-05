@@ -1,3 +1,5 @@
+// NOTE: THIS CODE HASN'T BEEN ADAPTED FROM ITS ORIGINAL ARDUINO FORMAT YET
+
 #include "pico/stdlib.h"
 #include <SPI.h>
 #include "\ICP-101xx_Lib_RivalLab\icp101xx.h" // ICP sensor library

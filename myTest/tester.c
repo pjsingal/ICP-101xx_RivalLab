@@ -1,6 +1,5 @@
+// This tester aims to make LED on board blink ON and OFF
 #include "pico/stdlib.h"
-
-
 int main(){
     const uint led_pin = 25;
     giop_init (led_pin);
